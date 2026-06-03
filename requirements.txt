@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+
+faster-whisper
+ffmpeg-python
+
+google-generativeai
+
+python-dotenv
+python-multipart
+
+pydantic

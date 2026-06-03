@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+    Upload Video
+</title>
+
+<link
+    rel="stylesheet"
+    href="css/style.css"
+>
+```
+
+</head>
+
+<body>
+
+```
+<nav class="navbar">
+
+    <div class="logo">
+
+        🎥 AI Video Summarizer
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="history.html">
+                History
+            </a>
+        </li>
+
+        <li>
+            <a href="about.html">
+                About
+            </a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<section class="upload-section">
+
+    <h1>
+        Upload Video
+    </h1>
+
+    <p>
+        Upload your video and generate AI-powered summaries.
+    </p>
+
+    <div class="upload-box">
+
+        <input
+            type="file"
+            id="videoFile"
+            accept="video/*"
+        >
+
+        <p id="fileName">
+            No file selected
+        </p>
+
+    </div>
+
+    <div class="button-group">
+
+        <button
+            type="button"
+            id="summarizeBtn"
+        >
+            Summarize Video
+        </button>
+
+        <button
+            type="button"
+            id="clearBtn"
+        >
+            Clear
+        </button>
+
+    </div>
+
+    <div id="resultContainer" style="display:none; margin-top:30px;">
+
+    <h2 id="title"></h2>
+
+    <h3>Overview</h3>
+    <p id="overview"></p>
+
+    <h3>Problem</h3>
+    <p id="problem"></p>
+
+    <h3>Solution</h3>
+    <p id="solution"></p>
+
+    <h3>Key Points</h3>
+    <ul id="keyPoints"></ul>
+
+    <h3>Action Items</h3>
+    <ul id="actionItems"></ul>
+
+    </div>
+
+</section>
+
+<script src="js/upload.js"></script>
+```
+
+</body>
+
+</html>
