@@ -4,4 +4,3 @@ venv/
 uploads/
 .vscode/
 *.pyc
-outputs/
