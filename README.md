@@ -199,6 +199,8 @@ uvicorn main:app --reload
 
 **Dhanusha Ediga**
 
+linkedin : www.linkedin.com/in/dhanusha1839
+
 Aspiring AI Engineer | Machine Learning | NLP | Generative AI
 
 GitHub: https://github.com/Anusha1839
